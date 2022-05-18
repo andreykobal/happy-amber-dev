@@ -210,10 +210,10 @@ export default function Landing() {
                   ))}
                 </div>
                 <a
-                  href="#"
+                  onClick={login}
                   className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
                 >
-                  Log in
+                  Sign in with NEAR
                 </a>
               </div>
             </Popover.Panel>
